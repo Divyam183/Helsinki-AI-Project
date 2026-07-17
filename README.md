@@ -33,3 +33,6 @@ if prediction[0] == 0:
     print("AI Assessment: Warning! This text contains high-risk sensationalist patterns.")
 else:
     print("AI Assessment: Looks normal.")
+
+Summary
+​This project is an AI-powered text analysis tool designed to identify and flag potentially misleading or fake news articles. By utilizing Natural Language Processing (NLP) and machine learning classification techniques (specifically TF-IDF and Logistic Regression), the tool analyzes linguistic patterns, emotional tones, and clickbait structures to assign a "credibility score" to written content. The ultimate goal is to empower internet users with a lightweight browser extension that helps combat misinformation and promotes digital literacy.
