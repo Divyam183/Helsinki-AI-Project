@@ -1,4 +1,5 @@
 p# Helsinki-AI-Project
+"Building AI course project" 
 
 # A simple conceptual demonstration of the AI classification approach
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -32,8 +33,13 @@ print(f"Analyzing article: '{new_article[0]}'")
 if prediction[0] == 0:
     print("AI Assessment: Warning! This text contains high-risk sensationalist patterns.")
 else:
-    print("AI Assessment: Looks normal.")
+![Project 
+
+Visualization](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Wordcloud_of_Tweets.png/640px-Wordcloud_of_Tweets.png)
+
+   print("AI Assessment: Looks normal.")
 # Final Project: Fake News & Misinformation Detector
+##Summary
 ​This project is an AI-powered text analysis tool designed to identify and flag potentially misleading or fake news articles. By utilizing Natural Language Processing (NLP) and machine learning classification techniques (specifically TF-IDF and Logistic Regression), the tool analyzes linguistic patterns, emotional tones, and clickbait structures to assign a "credibility score" to written content. The ultimate goal is to empower internet users with a lightweight browser extension that helps combat misinformation and promotes digital literacy.
 
 
